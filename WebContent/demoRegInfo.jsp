@@ -8,13 +8,13 @@
 </head>
 <body>
 填写注册信息<br/>
-<form action="">
-安装单位信息:<input type="text"><br/>
-负责人姓名:<input type="text"><br/>
-联系方式:<input type="text"><br/>
-机器码:<input type="text"><br/>
-序列号:<input type="text"><br/>
-<input type="button" value="提交">
+<form action="DemoRegServlet" method="post">
+安装单位信息:<input name="installCompany" type="text"><br/>
+负责人姓名:<input name="managerName" type="text"><br/>
+联系方式:<input name="managerPhone" type="text"><br/>
+机器码:<input name="machineCode" type="text"><br/>
+序列号:<input name="serialNumber" type="text"><br/>
+<input type="submit" value="提交">
 </form>
 </body>
 </html>

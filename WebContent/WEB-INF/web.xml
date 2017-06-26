@@ -8,5 +8,16 @@
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
+    <welcome-file>Demo.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DemoRegServlet</display-name>
+    <servlet-name>DemoRegServlet</servlet-name>
+    <servlet-class>com.maple.servlet.DemoRegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoRegServlet</servlet-name>
+    <url-pattern>/DemoRegServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
